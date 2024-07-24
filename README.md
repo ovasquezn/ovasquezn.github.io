@@ -1,3 +1,0 @@
-# Hola, soy Orlando
-
-## En construcción ...
