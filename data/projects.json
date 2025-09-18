@@ -1,0 +1,64 @@
+{
+  "projects": {
+    "backend": [
+      {
+        "id": "api-reservas",
+        "title": "Reservations Management API",
+        "title_es": "API de Gestión de Reservas",
+        "description": "Complete backend system for automating restaurant reservations, developed with Node.js, Express and PostgreSQL.",
+        "description_es": "Sistema backend completo para automatizar reservas en restaurantes, desarrollado con Node.js, Express y PostgreSQL.",
+        "technologies": ["Node.js", "PostgreSQL", "JWT"],
+        "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "links": {
+          "documentation": "projects/api-reservas.html",
+          "github": "https://github.com/ovasquezn",
+          "demo": null
+        }
+      },
+      {
+        "id": "auth-platform",
+        "title": "Authentication Platform",
+        "title_es": "Plataforma de Autenticación",
+        "description": "Secure backend with Django and JWT for user authentication, including granular roles and permissions.",
+        "description_es": "Backend seguro con Django y JWT para autenticación de usuarios, incluyendo roles y permisos granulares.",
+        "technologies": ["Django", "JWT", "PostgreSQL"],
+        "image": "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "links": {
+          "documentation": null,
+          "github": "https://github.com/ovasquezn",
+          "demo": null
+        }
+      }
+    ],
+    "data_science": [
+      {
+        "id": "sales-prediction",
+        "title": "Sales Prediction Model",
+        "title_es": "Modelo de Predicción de Ventas",
+        "description": "Machine Learning model in Python with scikit-learn for sales prediction with temporal trend analysis.",
+        "description_es": "Modelo de Machine Learning en Python con scikit-learn para predicción de ventas con análisis de tendencias temporales.",
+        "technologies": ["Python", "Scikit-learn", "Pandas"],
+        "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "links": {
+          "documentation": null,
+          "github": "https://github.com/ovasquezn",
+          "demo": null
+        }
+       },
+       {
+         "id": "data-dashboard",
+        "title": "Data Analysis Dashboard",
+        "title_es": "Dashboard de Análisis de Datos",
+        "description": "Interactive visualization with Power BI and Python for business data analysis and performance metrics.",
+        "description_es": "Visualización interactiva con Power BI y Python para análisis de datos empresariales y métricas de rendimiento.",
+        "technologies": ["Power BI", "Python", "SQL"],
+        "image": "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "links": {
+          "documentation": null,
+          "github": "https://github.com/ovasquezn",
+          "demo": null
+        }
+      }
+    ]
+  }
+}

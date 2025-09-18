@@ -1,0 +1,40 @@
+{
+  "certifications": [
+    {
+      "id": "ranking-udla-2025",
+      "title": "Ranking N°1 - Computer Engineering",
+      "title_es": "Ranking N°1 - Ingeniería en Ejecución en Informática",
+      "issuer": "Universidad de Las Américas (UDLA)",
+      "issuer_es": "Universidad de Las Américas (UDLA)",
+      "date": "2025",
+      "description": "Top ranking graduate in Computer Engineering program, demonstrating academic excellence and technical proficiency.",
+      "description_es": "Graduado con ranking N°1 en la carrera de Ingeniería en Ejecución en Informática, demostrando excelencia académica y competencia técnica.",
+      "icon": "fas fa-trophy",
+      "status": "active"
+    },
+    {
+      "id": "diplomado-python-udla-2024",
+      "title": "Diploma in Python and Data Science",
+      "title_es": "Diplomado en Python y Data Science",
+      "issuer": "Universidad Autónoma",
+      "issuer_es": "Universidad Autónoma",
+      "date": "2024",
+      "description": "Comprehensive diploma program covering Python programming, data analysis, machine learning, and statistical modeling.",
+      "description_es": "Programa de diplomado integral que cubre programación en Python, análisis de datos, machine learning y modelado estadístico.",
+      "icon": "fab fa-python",
+      "status": "active"
+    },
+    {
+      "id": "python-essentials-cisco-2023",
+      "title": "Python Essentials",
+      "title_es": "Python Essentials",
+      "issuer": "Cisco",
+      "issuer_es": "Cisco",
+      "date": "2023",
+      "description": "Cisco Python Essentials certification covering fundamental Python programming concepts and best practices.",
+      "description_es": "Certificación Cisco Python Essentials que cubre conceptos fundamentales de programación en Python y mejores prácticas.",
+      "icon": "fas fa-certificate",
+      "status": "active"
+    }
+  ]
+}

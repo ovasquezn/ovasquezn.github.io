@@ -1,82 +1,368 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web - En Construcción</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .header h1 {
-            font-size: 2.5em;
-            color: #333;
-        }
-        .header p {
-            font-size: 1.2em;
-            color: #666;
-        }
-        .construction-icon {
-            font-size: 5em;
-            color: #ff9900;
-            margin-bottom: 20px;
-        }
-        .content {
-            width: 100%;
-            max-width: 800px;
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        .content h2 {
-            font-size: 2em;
-            color: #333;
-            margin-bottom: 10px;
-        }
-        .content p {
-            font-size: 1.1em;
-            color: #666;
-        }
-        .project-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .project-list li {
-            background: #eee;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 4px;
-        }
-    </style>
+    <title>Orlando Vásquez N. - Backend Developer & Data Scientist</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Backend Developer & Data Scientist from Chile. Expert in Node.js, Python, PostgreSQL, and Machine Learning. Founder of Silcon Tech Solutions.">
+    <meta name="keywords" content="backend developer, data scientist, node.js, python, postgresql, machine learning, chile, silcon tech solutions">
+    <meta name="author" content="Orlando Vásquez N.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Orlando Vásquez N. - Backend Developer & Data Scientist">
+    <meta property="og:description" content="Backend Developer & Data Scientist from Chile. Expert in Node.js, Python, PostgreSQL, and Machine Learning.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ovasquezn.github.io">
+    <meta property="og:image" content="https://ovasquezn.github.io/images/profile.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Orlando Vásquez N. - Backend Developer & Data Scientist">
+    <meta name="twitter:description" content="Backend Developer & Data Scientist from Chile. Expert in Node.js, Python, PostgreSQL, and Machine Learning.">
+    <meta name="twitter:image" content="https://ovasquezn.github.io/images/profile.png">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%232563eb'/%3E%3Ctext x='50' y='65' font-family='Arial, sans-serif' font-size='40' font-weight='bold' text-anchor='middle' fill='white'%3EOV%3C/text%3E%3C/svg%3E">
+    <link rel="shortcut icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%232563eb'/%3E%3Ctext x='50' y='65' font-family='Arial, sans-serif' font-size='40' font-weight='bold' text-anchor='middle' fill='white'%3EOV%3C/text%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%232563eb'/%3E%3Ctext x='50' y='65' font-family='Arial, sans-serif' font-size='40' font-weight='bold' text-anchor='middle' fill='white'%3EOV%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="header">
-        <div class="construction-icon">🚧</div>
-        <h1>Página en Construcción</h1>
-        <p>Estamos trabajando para ofrecerte una mejor experiencia. Vuelve pronto para ver las novedades.</p>
+    <!-- Progress Banner -->
+    <div class="progress-banner">
+        <div class="progress-content">
+            <i class="fas fa-tools"></i>
+            <span data-translate="progress.banner">Portfolio in Progress - Content Coming Soon</span>
+        </div>
     </div>
-    <div class="content">
-        <h2>Acerca de Mí</h2>
-        <p>Hola, soy Orlando Vásquez. Soy Ingeniero en Informática (engreso a finales de 2024). Este sitio web estará disponible pronto con más información sobre mis proyectos y logros.</p>
-        
-        <h2>Mis Proyectos</h2>
-        <ul class="project-list">
-            <li>Proyecto 1: Descripción breve del proyecto 1.</li>
-            <li>Proyecto 2: Descripción breve del proyecto 2.</li>
-            <li>Proyecto 3: Descripción breve del proyecto 3.</li>
-            <!-- Añade más proyectos según sea necesario -->
-        </ul>
-    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Orlando Vásquez N.</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link" data-translate="nav.about">About Me</a>
+                <a href="#projects" class="nav-link" data-translate="nav.projects">Projects</a>
+                <a href="#research" class="nav-link" data-translate="nav.research">Personal Interests</a>
+                <a href="#certifications" class="nav-link" data-translate="nav.certifications">Certifications</a>
+                <a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <div class="language-toggle">
+                    <button class="lang-btn active" data-lang="en" title="English">
+                        <span class="flag">🇬🇧</span>
+                        <span class="lang-text">EN</span>
+                    </button>
+                    <button class="lang-btn" data-lang="es" title="Español">
+                        <span class="flag">🇪🇸</span>
+                        <span class="lang-text">ES</span>
+                    </button>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span data-translate="hero.greeting">Hello, I'm</span> <span class="highlight">Orlando Vásquez</span>
+                    </h1>
+                    <p class="hero-subtitle" data-translate="hero.subtitle">
+                        Backend Developer & Data Scientist
+                    </p>
+                    <div class="hero-role">
+                        <span class="role-badge" data-translate="hero.role">Founder at Silcon Tech Solutions</span>
+                    </div>
+                    <div class="hero-location">
+                        <span class="flag">🇨🇱</span>
+                        <span data-translate="hero.location">Concepción, Chile</span>
+                    </div>
+                    <p class="hero-description" data-translate="hero.description">
+                        Expert in building scalable backend systems, designing RESTful APIs, and implementing data-driven solutions. 
+                        Passionate about transforming complex data into actionable insights and creating high-performance applications that solve real-world problems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" data-translate="hero.cta.projects">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary" data-translate="hero.cta.contact">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.png" alt="Orlando Vásquez" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-translate="about.title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-translate="about.description1">
+                        I am a multidisciplinary professional from Chile with training in Computer Engineering and Physics, 
+                        and founder of Silcon Tech Solutions. My professional experience focuses on backend development 
+                        and data analysis, while astrophysics remains a passionate personal hobby that enriches my technical perspective.
+                    </p>
+                    <p data-translate="about.description2">
+                        I have worked on various professional projects ranging from RESTful APIs to data analysis 
+                        solutions. In my personal time, I enjoy exploring astrophysics topics and applying my 
+                        technical skills to understand cosmic phenomena.
+                    </p>
+                </div>
+                <div class="skills">
+                    <div class="skill-category">
+                        <h3 data-translate="about.skills.backend">Backend Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-translate="about.skills.data">Data Science & ML</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Jupyter</span>
+                            <span class="skill-tag">Power BI</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-translate="about.skills.databases">Databases</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Redis</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-translate="about.skills.tools">Tools & DevOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Bash</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-translate="projects.title">Featured Projects</h2>
+            <div id="projects-container" class="projects-disabled">
+                <!-- Content will be loaded dynamically from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title" data-translate="research.title">Personal Interests</h2>
+            <div class="research-content">
+                <div class="research-intro">
+                    <p data-translate="research.description">
+                        In my personal time, I enjoy exploring scientific and mathematical concepts that combine 
+                        my technical skills with my passion for understanding the universe. These interests range 
+                        from astrophysics and astronomy to computational simulations and mathematical modeling.
+                    </p>
+                </div>
+                
+                <div class="interest-badges">
+                    <div class="interest-badge">
+                        <i class="fas fa-star"></i>
+                        <span data-translate="research.astrophysics.title">Astrophysics</span>
+                    </div>
+                    
+                    <div class="interest-badge">
+                        <i class="fas fa-camera"></i>
+                        <span data-translate="research.astrophotography.title">Astrophotography</span>
+                    </div>
+                    
+                    <div class="interest-badge">
+                        <i class="fas fa-atom"></i>
+                        <span data-translate="research.physics.title">Physics</span>
+                    </div>
+                    
+                    <div class="interest-badge">
+                        <i class="fas fa-calculator"></i>
+                        <span data-translate="research.mathematics.title">Mathematics</span>
+                    </div>
+
+                </div>
+
+                <div class="publications">
+                    <h3 data-translate="research.publications.title">Personal Blog & Explorations</h3>
+                    <div class="publication-list">
+
+                        <div class="publication-item disabled">
+                            <div class="publication-tag">Astrophysics</div>
+                            <span class="publication-link disabled" data-translate="research.publications.agn">
+                                AGN Feedback and Star Formation: Trigger or Quench?
+                            </span>
+                            <span class="coming-soon">🇬🇧 October 2025</span>
+                        </div>
+
+                        <div class="publication-item disabled">
+                            <div class="publication-tag">Astrophotography</div>
+                            <span class="publication-link disabled" data-translate="research.publications.pixinsight">
+                                Advanced PixInsight Workflows: From Raw Data to Science-Grade Images
+                            </span>
+                            <span class="coming-soon">🇬🇧 October 2025</span>
+                        </div>
+
+                        <div class="publication-item disabled">
+                            <div class="publication-tag">Mathematics</div>
+                            <span class="publication-link disabled" data-translate="research.publications.graphs">
+                                Graph Theory in Real-World Optimization Problems
+                            </span>
+                            <span class="coming-soon">🇬🇧 October 2025</span>
+                        </div>
+
+                        <div class="publication-item disabled">
+                            <div class="publication-tag">Computer Science</div>
+                            <span class="publication-link disabled" data-translate="research.publications.verticalai">
+                                The Rise of Vertical AI Models for Business Applications
+                            </span>
+                            <span class="coming-soon">🇬🇧 September 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title" data-translate="certifications.title">Certifications & Achievements</h2>
+            <div id="certifications-container" class="certifications-grid">
+                <!-- Content will be loaded dynamically from JSON -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-translate="contact.description">I'm always open to new opportunities, interesting projects and collaborations in backend development, data analysis, and software engineering.</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:orlandovasquezneira@gmail.com">orlandovasquezneira@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/opvasquezn/" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/ovasquezn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h4 data-translate="contact.project.title">Have a project in mind?</h4>
+                    <p data-translate="contact.project.desc">Let's talk about how I can help you make it happen.</p>
+                    <a href="mailto:orlandovasquezneira@gmail.com" class="btn btn-primary" data-translate="contact.btns.message">Send Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Orlando Vásquez Neira. <span data-translate="footer.rights">All rights reserved.</span></p>
+                <p data-translate="footer.developed">Developed with ❤️ and lots of coffee</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/content-loader.js"></script>
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.project-card, .research-card, .cert-card, .testimonial-card, .timeline-item').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
